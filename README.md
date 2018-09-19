@@ -1,2 +1,2 @@
 # ShoppingList
-Implementation of a basic shopping list application
+Implementation of a basic Android shopping list application
