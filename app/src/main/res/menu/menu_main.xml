@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hu.ait.android.shoppinglist.MainActivity">
+
+    <item
+        android:id="@+id/action_price"
+        android:orderInCategory="100"
+        android:title="@string/action_price"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:orderInCategory="100"
+        android:title="@string/action_sort"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="100"
+        android:title="@string/action_clear"
+        app:showAsAction="never" />
+
+</menu>

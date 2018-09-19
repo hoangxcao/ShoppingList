@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/shopping_item_row">
+    <!-- Bottom View Start-->
+    <LinearLayout
+        android:id="@+id/bottom_wrapper_edit"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <!--What you want to show-->
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:text="@string/edit"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_wrapper_delete"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_red_light"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <!--What you want to show-->
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:text="@string/delete"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    <!-- Bottom View End-->
+</merge>
